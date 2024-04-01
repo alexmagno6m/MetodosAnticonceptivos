@@ -1,0 +1,323 @@
+body {
+    background-color: #E1E0E0;
+}
+.header {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    padding-bottom: 90px;
+
+
+}
+.corporative {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: left;
+    left: 20px;
+}
+
+
+
+.nav-menu {
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 100px;
+    list-style: none;
+    font-family: "Alata";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(223, 95, 155);
+    font-size: 20px;
+}
+
+.nav-menu li {
+    font-family: "Actor", sans-serif;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-title {
+    font-family: 'Aclonica';
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: #174478;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.main-title a {
+    text-decoration: none;
+    color: #174478;
+}
+.main-title a:visited {
+    color: #174478;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    width: 100vw;
+    height: 350px;
+    background: linear-gradient(90deg, #510A2C, #941469);
+    position: relative;
+    
+}
+
+.hero-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-family: "Andika";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(248, 218, 232);
+    font-size: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+.hero-image img {
+    position: absolute;
+    bottom: -229px;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.info {
+    max-width: 1200px;
+    font-family: "Actor";
+    font-weight: 400;
+    font-style: normal;
+    color: #7E838A;
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-content1, .card-content2, .card-content3, .card-content4 {
+    position: relative;
+    max-width: 200px;
+    background-color: #FAF8F8;
+    padding: 15px 15px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    font-family: "Actor";
+    font-weight: 400;
+    font-style: normal;
+    color: #174478;
+}
+
+.card h3 {
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #919EA8;
+}
+
+.card p {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #121212;
+}
+
+
+.card li {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #174478;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.card li::marker {
+    font-size: 20px;
+}
+
+.card .card-content1 img {
+    position: absolute;
+    bottom: -45px;
+    right: -25px;
+    max-width: 100%;
+    height: auto;
+}
+.card .card-content2 img {
+    position: absolute;
+    bottom: -75px;
+    right: -70px;
+    max-width: 100%;
+    height: auto;
+}
+.card .card-content3 img {
+    position: absolute;
+    bottom: -55px;
+    right: -35px;
+    max-width: 100%;
+    height: auto;
+}
+
+.link-card {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    color: #174478;
+}
+.pre-footer {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    background-color: #F8ECE8;
+    margin-top: 85px;
+}
+.pre-footer-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pre-footer-image img {
+    position: absolute;
+    bottom: -300px;
+    left: -200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.pre-footer-message {
+
+    position: absolute;
+    max-width: 600px;
+    margin-left: 320px;
+    padding-top: 90px;
+   
+    
+}
+.pre-footer-message h1 {
+    font-family: "Aclonica", sans-serif;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.pre-footer-message h3 {
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.pre-footer-message p {
+    font-family: "Aclonica", sans-serif;
+    font-size: 12px;
+}
+
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    height: 200px;
+    background-color: #FBFBFB;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.text-contact {
+    padding-top: 80px;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 36px;
+}
+.location {
+    padding-top: 120px;
+}
+
+.location input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #174478;
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    max-width: 1200px;
+    height: 80px;
+    background-color: #FAF8F8;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.corporative-footer {
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+
+}
+
+.corporative-footer .footer-title {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Aclonica';
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: #174478;
+
+}
+
+.social-icons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.social-icons img {
+    padding-left: 10px;
+}
+
+.metodos {
+    position: relative;
+    font-family: "Actor", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FAF8F8;
+    top: -80px;
+    color: #4f4f4f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.images-article {
+    display: flex;
+    justify-content: space-around;
+}
